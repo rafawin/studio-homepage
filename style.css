@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf7;
+  color: #2e2e2e;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f4ede6;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid #e0d6cd;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #5c4d4d;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #7a6a5f;
+}
+
+/* Seções */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: #5c4d4d;
+  margin-bottom: 20px;
+  border-left: 4px solid #c2b4a9;
+  padding-left: 10px;
+}
+
+/* Listas com ícones */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✦ ";
+  color: #8c6e6e;
+  margin-right: 6px;
+}
+
+/* Links */
+a {
+  color: #6a4e42;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+  color: #7a6a5f;
+  background-color: #f4ede6;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e0d6cd;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  main {
+    padding: 20px;
+  }
+}
+
+
+
+
+
